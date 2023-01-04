@@ -1,0 +1,38 @@
+{
+  "name": "unreadability",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Decorate an HTML file with readability scoring",
+  "author": "Robin Berjon <robin@berjon.com>",
+  "license": "MIT",
+  "scripts": {},
+  "bin": {
+    "unreadability": "unreadability.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darobin/unreadability.git"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "mocha": true,
+      "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "overrides": [],
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "rules": {}
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "jsdom": "^20.0.3",
+    "readability-meter": "^1.0.0"
+  }
+}
